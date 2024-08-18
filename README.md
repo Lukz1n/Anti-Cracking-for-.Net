@@ -6,6 +6,14 @@
 
 ---
 
+## 📞 **Contact**
+
+If you have any questions or need support, please reach out to us:
+
+- **Discord**: [https://discord.com/users/[1162785164116631693]](lukz11n)
+
+---
+
 ## 🛠 **Features**
 
 - **Dynamic Code Obfuscation**: Protects critical methods and prevents reverse engineering.
@@ -51,20 +59,3 @@ public partial class Form1 : Form
         InitializeComponent();
     }
 }
-
----
-
-## 📞 **Contact**
-
-If you have any questions or need support, please reach out to us:
-
-- **Discord**: [https://discord.com/users/[1162785164116631693]](lukz11n)
-
-### Key Components:
-
-- **Badges**: `[![Net Protector](https://img.shields.io/badge/Net%20Protector-v1.0-brightgreen)]` adds a version badge to the title.
-- **Images**: `![Net Protector Demo](https://via.placeholder.com/800x400.png?text=Net+Protector+Demo)` displays a demo image.
-- **Code Blocks**: Use ```` ``` ```` to format code blocks.
-- **Lists and Headers**: Organize sections and information using lists and headers for better readability.
-
-Feel free to adjust the URLs, badges, and contact information as needed for your project!
