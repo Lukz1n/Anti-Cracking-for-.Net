@@ -10,7 +10,7 @@
 
 If you have any questions or need support, please reach out to us:
 
-- **Discord**: [https://discord.com/users/[1162785164116631693]](lukz11n)
+- **Discord**: lukz11n
 
 ---
 
