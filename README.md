@@ -1,38 +1,38 @@
 # ![Net Protector](https://img.shields.io/badge/Net%20Protector-v1.0-brightgreen) :shield:
 
-## 🚀 **Net Protector** - Proteja Seu Código com Estilo!
+## 🚀 **Net Protector** - Protect Your Code in Style!
 
-**Net Protector** é uma solução robusta e inovadora para proteger seu aplicativo Windows Forms contra manipulações e injeções indesejadas. Desenvolvido com técnicas avançadas de ofuscação e proteção, **Net Protector** garante a integridade do seu código e a segurança do seu software.
-
----
-
-## 🛠 **Funcionalidades**
-
-- **Ofuscação Dinâmica de Código**: Protege métodos críticos e impede a engenharia reversa.
-- **Detecção de Injeção de Código**: Identifica tentativas de injeção e protege o seu aplicativo em tempo real.
-- **Proteção Avançada**: Implementa múltiplas camadas de segurança para garantir a integridade do seu código.
+**Net Protector** is a robust and innovative solution for safeguarding your Windows Forms application against tampering and unwanted injections. Developed with advanced obfuscation and protection techniques, **Net Protector** ensures the integrity of your code and the security of your software.
 
 ---
 
-## 📦 **Instalação**
+## 🛠 **Features**
 
-1. **Clone o Repositório**:
+- **Dynamic Code Obfuscation**: Protects critical methods and prevents reverse engineering.
+- **Code Injection Detection**: Identifies injection attempts and secures your application in real-time.
+- **Advanced Protection**: Implements multiple layers of security to ensure code integrity.
+
+---
+
+## 📦 **Installation**
+
+1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/SEU_USUARIO/Net-Protector.git
+    git clone https://github.com/YOUR_USERNAME/Net-Protector.git
     ```
 
-2. **Abra o Projeto**:
-   - Abra o projeto no Visual Studio.
+2. **Open the Project**:
+   - Open the project in Visual Studio.
 
-3. **Compile e Execute**:
-   - Compile o projeto e execute o aplicativo para começar a proteger seu código!
+3. **Build and Run**:
+   - Build the project and run the application to start protecting your code!
 
 ---
 
-## 🎯 **Como Usar**
+## 🎯 **How to Use**
 
-Adicione o seguinte código ao seu formulário principal para ativar a proteção:
+Add the following code to your main form to activate the protection:
 
 ```csharp
 using NetProtector;
@@ -47,6 +47,24 @@ public partial class Form1 : Form
         AdvancedAntiDebugging.CheckForAdvancedDebuggers();
         Protection.Protect();
         DynamicCodeObfuscation.RunProtectedCode();
+        DynamicCodeObfuscation.RunProtectedCode();
         InitializeComponent();
     }
 }
+
+---
+
+## 📞 **Contact**
+
+If you have any questions or need support, please reach out to us:
+
+- **Discord**: [https://discord.com/users/[1162785164116631693]](lukz11n)
+
+### Key Components:
+
+- **Badges**: `[![Net Protector](https://img.shields.io/badge/Net%20Protector-v1.0-brightgreen)]` adds a version badge to the title.
+- **Images**: `![Net Protector Demo](https://via.placeholder.com/800x400.png?text=Net+Protector+Demo)` displays a demo image.
+- **Code Blocks**: Use ```` ``` ```` to format code blocks.
+- **Lists and Headers**: Organize sections and information using lists and headers for better readability.
+
+Feel free to adjust the URLs, badges, and contact information as needed for your project!
