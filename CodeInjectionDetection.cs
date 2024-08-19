@@ -30,10 +30,9 @@ namespace Net_Protector.Class.Advanced
 
         public static void DetectCodeInjection()
         {
-            IntPtr baseAddress = Process.GetCurrentProcess().MainModule.BaseAddress; // Obtém o endereço base do próprio processo
+            IntPtr baseAddress = Process.GetCurrentProcess().MainModule.BaseAddress;
             MEMORY_BASIC_INFORMATION memInfo;
 
-            // Verifica se a chamada para VirtualQuery foi bem-sucedida
             if (VirtualQuery(baseAddress, out memInfo, (UIntPtr)Marshal.SizeOf(typeof(MEMORY_BASIC_INFORMATION))) != UIntPtr.Zero)
             {
                 // Verifica se a proteção de memória é EXECUTE_READWRITE, o que pode indicar injeção de código
